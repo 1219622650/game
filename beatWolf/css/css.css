@@ -1,1 +1,101 @@
-
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .wrap{
+        position: relative;
+        left:0;
+        top:0;
+        width: 416px;
+        height: 644px;
+        background: url(../img/game_bg.jpg) no-repeat;
+        background-color:#ccc;
+        margin: 50px auto;
+    }
+    .start,.gameOver{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 416px;
+        height: 624px;
+        background-color:rgba(0, 0, 0, 0.3);
+    }
+    .startGame,.restart{
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        margin-left:-100px;
+        width: 200px;
+        height: 50px;
+        background-color:rgba(255, 76, 0,1);
+        border-radius: 20px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 30px;
+        color: white;
+        font-family: "微软雅黑";
+        font-weight:bolder;
+        cursor: pointer;
+    }
+    .gameOver{
+        display: none;
+    }
+    .gameOver .txt{
+        color: #fff;
+        font-size: 60px;
+        text-align: center;
+        line-height: 350px;
+    }
+    .gameOver .gameScore{
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+    }
+    .score{
+        position: absolute;
+        left: 80px;
+        top: 18px;
+        width: 50px;
+        height: 20px;
+        font-size: 20px;
+        color: rgba(255,255,255,.6);
+    }
+    .progress{
+        display: none;
+        position: absolute;
+        left: 81px;
+        top: 86px;
+        width: 236px;
+        height: 22px;
+        border-radius: 15px;
+        background: url(../img/progress.png) no-repeat;
+    }
+    .rule{
+        display: block;
+        width: 416px;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        cursor: pointer;
+    }
+    .rules{
+        display: none;
+        position: absolute;
+        left:0;
+        top:0;
+        width: 416px;
+        height: 624px;
+        background-color: rgba(255,255,255,.7);
+    }
+    .rules_text{
+        width: 416px;
+        height:300px;
+        margin-top: 200px;
+        overflow: hidden;
+    }
+    .rules_text p{
+        text-align: center;
+        margin-top:50px; 
+        font-size: 20px;
+        font-weight: bolder;
+    }
