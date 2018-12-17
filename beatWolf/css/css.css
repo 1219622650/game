@@ -7,7 +7,7 @@
         left:0;
         top:0;
         width: 416px;
-        height: 644px;
+        height: 654px;
         background: url(../img/game_bg.jpg) no-repeat;
         background-color:#ccc;
         margin: 50px auto;
@@ -73,7 +73,7 @@
     .rule{
         display: block;
         width: 416px;
-        height: 30px;
+        line-height: 30px;
         position: absolute;
         bottom: 0;
         text-align: center;
