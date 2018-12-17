@@ -10,7 +10,7 @@
         height: 654px;
         background: url(../img/game_bg.jpg) no-repeat;
         background-color:#ccc;
-        margin: 50px auto;
+        margin: 0 auto;
     }
     .start,.gameOver{
         position: absolute;
