@@ -89,9 +89,12 @@
     }
     .rules_text{
         width: 416px;
-        height:300px;
-        margin-top: 200px;
+        height:400px;
+        margin-top: 100px;
         overflow: hidden;
+    }
+    .rules_text h1{
+        text-align: center;
     }
     .rules_text p{
         text-align: center;
